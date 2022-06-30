@@ -9,7 +9,11 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
+  // permission rules
   users: 600,
+  classes: 640,
+  exercises: 640,
+  sequences: 640,
 });
 
 app.use(cors());
@@ -20,4 +24,5 @@ app.listen(port);
 
 console.log("Server is running on port:", port);
 
-/* A senha do Kenzinho é 123456 */
+/* A senha do Jão é ballet */
+/* A senha da Nina é 1234 */

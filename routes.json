@@ -1,3 +1,6 @@
 {
-  "users": 600
+  "users": 600,
+  "classes": 640,
+  "exercises": 640,
+  "sequences": 640
 }
