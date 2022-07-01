@@ -4,12 +4,18 @@ This is the backend (json.server Fake API) of the Ballet Class Planner - An appl
 
 <sup>Este é o backend (json.server Fake API) do Planejdor de Aulas de Ballet - Uma aplicação para professoras e professores planejarem suas aulas e para estudantes acessa-las.</sup>
 
+- [Register](#Register)
+- [Login](#Login)
+- [User](#User)
+- [Classes](#Classes)
+- [Exercises](#Exercises)
+- [Sequences](#Sequences)
+
 ## Endpoints
 As stated in [JSON-Server-Auth Documentation](https://www.npmjs.com/package/json-server-auth), there are 3 endpoints that can be used to create a new user and 2 endpoints for login.
-</br></br>
 <sup>Assim como a [documentação do JSON-Server-Auth](https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.</sup>
 
-<dl>
+<dl id="Register">
 <dt><h3><a href="#Register"><b>Register</b></a><sub>|Cadastro</sub></h3></dt>
 <dd><code>POST - /register</code></dd>
 <dd><code>POST - /signup</code></dd>
@@ -21,7 +27,7 @@ Any of this 3 endpoints will create a new user. The required fields are email an
 Para essa aplicação é recomendado a adição de um tipo (teacher ou student) e de um array vazio de teachers se o tipo for student e de students se o tipo for teacher.</sup>
 
 
-<dl>
+<dl id="Login">
 <dt><h3><a href="#Login"><b>Login</b></a></h3></dt>
 <dd><code>POST - /login</code><dd/>
 <dd><code>POST - /signin</code><dd>
@@ -32,7 +38,7 @@ Any of these 2 endpoints can be used to login with an existent user. All the fol
 <dl>
 </dl>
 
-<dl>
+<dl id="User">
 <dt><h3><a href="#User"><b>User</b></a><sub>| Usuário</sub></h3></dt>
 <dd><code>GET - /users/:id</code></dd>
 <dd><code>PUT - /users/:id</code></dd>
@@ -45,7 +51,7 @@ Use these endpoints to get (GET) details about an user, update (PUT, PATCH) and 
 </br></br>
 <sup>pt-BR</br>Utilizer esses endpoints para acessar (GET) os detalhes de um usuário, atualizar (PUT, PATCH) um usuário, ou remover (DELETE) um usuário do banco de dados.</br><b>token necessário</b></sup>
 
-<dl>
+<dl id="Classes">
 <dt><h3><a href="#Classes"><b>Classes</b></a><sub>| Aulas</sub></h3></dt>
 <dd><code>POST - /classes</code></dd>
 <dd><code>PUT - /classes/:id</code></dd>
@@ -215,7 +221,7 @@ Write permissions (PUT, PATCH, DELETE) only available for owner's token, the own
 }
 ```
 </details>
-<dl>
+<dl id="Exercises">
 <dt><h3><a href="#Exercises"><b>Exercises</b></a><sub>| Exercícios</sub></h3></dt>
 <dd><code>POST - /exercises</code></dd>
 <dd><code>PUT - /exercises/:id</code></dd>
@@ -506,7 +512,7 @@ Write permissions (PUT, PATCH, DELETE) only available for owner's token, the own
 ]
 ```
 </details>
-<dl>
+<dl id="Sequences">
 <dt><h3><a href="#Sequences"><b>Sequences</b></a><sub>| Sequências</sub></h3></dt>
 <dd><code>POST - /sequences</code></dd>
 <dd><code>PUT - /sequences/:id</code></dd>
