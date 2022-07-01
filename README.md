@@ -4,16 +4,17 @@ This is the backend (json.server Fake API) of the Ballet Class Planner - An appl
 
 <sup>Este é o backend (json.server Fake API) do Planejdor de Aulas de Ballet - Uma aplicação para professoras e professores planejarem suas aulas e para estudantes acessa-las.</sup>
 
+
+## Endpoints
+As stated in [JSON-Server-Auth Documentation](https://www.npmjs.com/package/json-server-auth), there are 3 endpoints that can be used to create a new user and 2 endpoints for login.
+<sup>Assim como a [documentação do JSON-Server-Auth](https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.</sup>
+
 - [Register](#Register)
 - [Login](#Login)
 - [User](#User)
 - [Classes](#Classes)
 - [Exercises](#Exercises)
 - [Sequences](#Sequences)
-
-## Endpoints
-As stated in [JSON-Server-Auth Documentation](https://www.npmjs.com/package/json-server-auth), there are 3 endpoints that can be used to create a new user and 2 endpoints for login.
-<sup>Assim como a [documentação do JSON-Server-Auth](https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.</sup>
 
 <dl id="Register">
 <dt><h3><a href="#Register"><b>Register</b></a><sub>|Cadastro</sub></h3></dt>
