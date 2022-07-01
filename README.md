@@ -1,4 +1,4 @@
-# Ballet Class Planner / Exercise Planner <sup>Planejador de Auals de Ballet / Exercícios</sup>
+# Ballet Class Planner / Exercise Planner </br><sup>Planejador de Auals de Ballet / Exercícios</sup>
 
 This is the backend (json.server Fake API) of the Ballet Class Planner - An application for teachers to plan their classes, and for students to access them.
 
