@@ -594,7 +594,7 @@ Write permissions (PUT, PATCH, DELETE) only available for owner's token, the own
 ```
 </details>
 
-```POST /exercises - Response Format - 403 Forbidden (No user ID)```
+```POST /sequences - Response Format - 403 Forbidden (No user ID)```
 
 <sup>Formato da resposta sem ID do usuário</sup>
 <details>
