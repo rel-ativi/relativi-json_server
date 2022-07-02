@@ -563,7 +563,7 @@ Write permissions (PUT, PATCH, DELETE) only available for owner's token, the own
 ```
 </details>
 
-```POST /exercises - Response Format - 200 Ok```
+```POST /sequences - Response Format - 200 Ok```
 
 <sup>Formato da resposta</sup>
 <details>
