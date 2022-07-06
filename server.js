@@ -11,9 +11,9 @@ app.db = router.db;
 const rules = auth.rewriter({
   // permission rules
   users: 600,
-  classes: 640,
-  exercises: 640,
-  sequences: 640,
+  prousers: 640,
+  profiles: 640,
+  activities: 640,
 });
 
 app.use(cors());
@@ -23,6 +23,3 @@ app.use(router);
 app.listen(port);
 
 console.log("Server is running on port:", port);
-
-/* A senha do Jão é ballet */
-/* A senha da Nina é 1234 */
