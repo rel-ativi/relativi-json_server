@@ -23,3 +23,6 @@ app.use(router);
 app.listen(port);
 
 console.log("Server is running on port:", port);
+
+// a senha do Jao Exemplo é exemplo
+// a senha da Jana Exemplo é exempla

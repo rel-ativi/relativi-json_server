@@ -1,6 +1,92 @@
 {
-  "users": [],
-  "prousers": [],
-  "profiles": [],
-  "activities": []
+  "users": [
+    {
+      "email": "exemplo@mail.com",
+      "password": "$2a$10$/W4jOksxBmkPXEb3Rb23wOkOl2F7g1Umpeax0YgEoBVYfyLVjOWVq",
+      "name": "Jao Exemplo",
+      "type": "prouser",
+      "id": 1
+    },
+    {
+      "email": "exempla@mail.com",
+      "password": "$2a$10$grrFI0vsOjc.A.OIEwalxOucX8GX6BxUZo1YgIRfvgGnqvWnMWAK6",
+      "name": "Jana Exempla",
+      "type": "user",
+      "id": 2
+    }
+  ],
+  "prousers": [
+    {
+      "email": "exemplo@mail.com",
+      "name": "Jao Exemplo",
+      "avatar_url": "",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Jana Exempla",
+      "email": "exempla@mail.com",
+      "avatar_url": "",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "activities": [
+    {
+      "userId": 1,
+      "prouserId": 1,
+      "name": "Atividade exemplo - recorrente",
+      "type": "artes marciais",
+      "users_limit": 15,
+      "img_url": "https://images.unsplash.com/photo-1588286840104-8957b019727f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "duration_text": "1 hora",
+      "duration_ms": 3600000,
+      "description": "Essa é uma atividade recorrente de exemplo, no obejto sechedule (agenda) dela o boleano recurrent está true e o array days tem os nomes dos dias em que ela ocorre",
+      "schedule": {
+        "recurrent": true,
+        "days": [
+          "Segunda",
+          "Quarta",
+          "Sábado"
+        ],
+        "time_text": "10h",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 07",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "prouserId": 1,
+      "name": "Atividade exemplo - não recorrente",
+      "type": "danças",
+      "users_limit": 40,
+      "img_url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "duration_text": "3 horas",
+      "duration_ms": 10800000,
+      "description": "Essa é uma atividade não recorrent de exemplo, no obejto sechedule (agenda) dela o boleano recurrent está false e o array days está vazio",
+      "schedule": {
+        "recurrent": false,
+        "days": [],
+        "time_text": "14h",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 2
+    }
+  ]
 }
