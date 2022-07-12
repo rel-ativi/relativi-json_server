@@ -1,35 +1,136 @@
 {
   "users": [
     {
-      "email": "exemplo@mail.com",
-      "password": "$2a$10$/W4jOksxBmkPXEb3Rb23wOkOl2F7g1Umpeax0YgEoBVYfyLVjOWVq",
-      "name": "Jao Exemplo",
-      "type": "prouser",
+      "email": "kleber@mail.com",
+      "password": "$2a$10$6KnvXVt1HlCXLs5N38V1POD6Zu.o8pS8hJbA5j/8e2KVPHtvXvitu",
+      "name": "Kleber Silva",
+      "type": "profissional",
       "id": 1
     },
     {
-      "email": "exempla@mail.com",
-      "password": "$2a$10$grrFI0vsOjc.A.OIEwalxOucX8GX6BxUZo1YgIRfvgGnqvWnMWAK6",
-      "name": "Jana Exempla",
-      "type": "user",
+      "email": "jamili@mail.com",
+      "password": "$2a$10$guMK6wlTh15LqPxkhgT3veCxtG7vA5gvY9Uaaz3RP17rlTmdgUwym",
+      "name": "Jamili Arantes",
+      "type": "profissional",
       "id": 2
+    },
+    {
+      "email": "sidarta@mail.com",
+      "password": "$2a$10$bjr4WZkAgpph653RNp6eZe2k5sMbbWt5OUVwpauEfuHnKszvT8ZdO",
+      "name": "Sidarta Naparajito",
+      "type": "profissional",
+      "id": 3
+    },
+    {
+      "email": "marcos@mail.com",
+      "password": "$2a$10$Hgwmj9XchelKW1.RKguUT.ON6AIl1qexGpiN7R8P/AJGGPjTRaySK",
+      "name": "Marcos Lima",
+      "type": "profissional",
+      "id": 4
+    },
+    {
+      "email": "joana@mail.com",
+      "password": "$2a$10$lran1me9LMyOsUuEf4NU8e/zLOiG2cfLtPSDl6F9Ei/GtVm45Q506",
+      "name": "Joana Nelson",
+      "type": "usuário",
+      "id": 5
     }
   ],
   "prousers": [
     {
-      "email": "exemplo@mail.com",
-      "name": "Jao Exemplo",
-      "avatar_url": "",
       "userId": 1,
+      "email": "kleber@email.com",
+      "name": "Kleber Silva",
+      "phone": "1122334455",
+      "bio": "Sou o Kleber, dou aula de capoeira, hip-hop e atendo como personal trainer",
+      "docs": [
+        "certificado de professor de capoeira"
+      ],
+      "bank_info": {
+        "bank": 543,
+        "agency": 1231,
+        "account_number": 112233
+      },
       "id": 1
+    },
+    {
+      "userId": 2,
+      "email": "jamili@email.com",
+      "name": "Jamili Arantes",
+      "phone": "1122334455",
+      "bio": "Sou a Jamili, dou aula de Pilates, treinos HIIT e faço massagem modeladora",
+      "docs": [
+        "certificado de massagista"
+      ],
+      "bank_info": {
+        "bank": 543,
+        "agency": 1231,
+        "account_number": 112233
+      },
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "email": "sidarta@email.com",
+      "name": "Sidarta Naparajito",
+      "phone": "1122334455",
+      "bio": "Sou o Sidarta, dou aula de Yoga, Dança Indiana e faço acupuntura",
+      "docs": [
+        "certificado de acupunturista",
+        "diploma de dança indiana"
+      ],
+      "bank_info": {
+        "bank": 543,
+        "agency": 1231,
+        "account_number": 112233
+      },
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "email": "marcos@email.com",
+      "name": "Marcos Lima",
+      "phone": "1122334455",
+      "bio": "Sou o Marcos, dou aula de Jiu-Jitsu, Treinos Cardio e atendo como Personal traines",
+      "docs": [
+        "certificado de Jiu-Jitsu"
+      ],
+      "bank_info": {
+        "bank": 543,
+        "agency": 1231,
+        "account_number": 112233
+      },
+      "id": 4
     }
   ],
   "profiles": [
     {
-      "name": "Jana Exempla",
-      "email": "exempla@mail.com",
-      "avatar_url": "",
-      "userId": 2,
+      "userId": 5,
+      "email": "joana@mail.com",
+      "name": "Joana Nelson",
+      "phone": "1122334455",
+      "bio": "Sou Joana, uma usuária da plataforma relativi",
+      "payment_info": {
+        "card": 1122334455667788,
+        "expiration": "12/34",
+        "sec_code": 123
+      },
+      "activities": [
+        {
+          "activity": 7,
+          "when": 1658458800000
+        }
+      ],
+      "activities_history": [
+        {
+          "activity": 11,
+          "when": 1593658800000
+        }
+      ],
+      "activities_favorites": [
+        4,
+        3
+      ],
       "id": 1
     }
   ],
@@ -37,25 +138,24 @@
     {
       "userId": 1,
       "prouserId": 1,
-      "name": "Atividade exemplo - recorrente",
+      "name": "Capoeira",
       "type": "artes marciais",
+      "price": 50,
       "users_limit": 15,
-      "img_url": "https://images.unsplash.com/photo-1588286840104-8957b019727f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "img_url": "https://images.unsplash.com/photo-1583166614297-a97b68d5cead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1315&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Essa é uma atividade recorrente de exemplo, no obejto sechedule (agenda) dela o boleano recurrent está true e o array days tem os nomes dos dias em que ela ocorre",
+      "description": "Aula de capoeira - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
       "schedule": {
         "recurrent": true,
         "days": [
-          "Segunda",
-          "Quarta",
           "Sábado"
         ],
         "time_text": "10h",
         "start_date": 1657129958111
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 07",
+        "line_1": "Rua dos Testes, 33 - Sala 10",
         "line_2": "Nome do Bairro",
         "city": "Cidade Imaginária",
         "state": "Nome do Estado",
@@ -66,17 +166,18 @@
     {
       "userId": 1,
       "prouserId": 1,
-      "name": "Atividade exemplo - não recorrente",
-      "type": "danças",
-      "users_limit": 40,
-      "img_url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "duration_text": "3 horas",
-      "duration_ms": 10800000,
-      "description": "Essa é uma atividade não recorrent de exemplo, no obejto sechedule (agenda) dela o boleano recurrent está false e o array days está vazio",
+      "name": "Personal",
+      "type": "fitness",
+      "price": 70,
+      "users_limit": 1,
+      "img_url": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+      "duration_text": "1.5 hora",
+      "duration_ms": 5400000,
+      "description": "Personal training - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
       "schedule": {
         "recurrent": false,
         "days": [],
-        "time_text": "14h",
+        "time_text": "múltiplos horários",
         "start_date": 1657129958111
       },
       "address": {
@@ -87,6 +188,287 @@
         "zip_code": "12345-000"
       },
       "id": 2
+    },
+    {
+      "userId": 1,
+      "prouserId": 1,
+      "name": "Hip Hop",
+      "type": "danças",
+      "price": 45,
+      "users_limit": 8,
+      "img_url": "https://images.unsplash.com/photo-1588540111535-2b7ef1eb7833?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+      "duration_text": "1 hora",
+      "duration_ms": 3600000,
+      "description": "Aula de Hip-hop - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": true,
+        "days": [
+          "Segunda",
+          "Quarta"
+        ],
+        "time_text": "19 horas",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "prouserId": 2,
+      "name": "Pilates",
+      "type": "wellness",
+      "price": 65,
+      "users_limit": 8,
+      "img_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "duration_text": "1 hora",
+      "duration_ms": 3600000,
+      "description": "Aula Pilates - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": true,
+        "days": [
+          "Terça",
+          "Quinta"
+        ],
+        "time_text": "16 horas",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "prouserId": 2,
+      "name": "Treino HIIT",
+      "type": "funcional",
+      "price": 50,
+      "users_limit": 10,
+      "img_url": "https://images.unsplash.com/photo-1517130038641-a774d04afb3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "duration_text": "30 minutos",
+      "duration_ms": 1800000,
+      "description": "Treino HIIT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": true,
+        "days": [
+          "Terça",
+          "Quinta"
+        ],
+        "time_text": "19 horas",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "prouserId": 2,
+      "name": "Massagem Modeladora",
+      "type": "outros",
+      "price": 130,
+      "users_limit": 1,
+      "img_url": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "duration_text": "1.5 hora",
+      "duration_ms": 5400000,
+      "description": "Massagem Modeladora - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": false,
+        "days": [],
+        "time_text": "múltiplos horários",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "prouserId": 3,
+      "name": "Yin Yoga",
+      "type": "wellness",
+      "price": 130,
+      "users_limit": 7,
+      "img_url": "https://images.unsplash.com/photo-1593358578736-186f3d13c789?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "duration_text": "1 hora",
+      "duration_ms": 3600000,
+      "description": "Yin Yoga - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": true,
+        "days": [
+          "Terça",
+          "Quinta",
+          "Sábado"
+        ],
+        "time_text": "múltiplos horários",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "prouserId": 3,
+      "name": "Dança Indiana",
+      "type": "danças",
+      "price": 90,
+      "users_limit": 10,
+      "img_url": "https://images.unsplash.com/photo-1560646008-44ea61640db6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "duration_text": "2 horas",
+      "duration_ms": 7200000,
+      "description": "Aula de dança indiana - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": true,
+        "days": [
+          "Sábado"
+        ],
+        "time_text": "15 horas",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "prouserId": 3,
+      "name": "Acupuntura",
+      "type": "outros",
+      "price": 100,
+      "users_limit": 1,
+      "img_url": "https://images.unsplash.com/photo-1598555763574-dca77e10427e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=897&q=80",
+      "duration_text": "1 hora",
+      "duration_ms": 3600000,
+      "description": "Sessão de acupuntura - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": false,
+        "days": [],
+        "time_text": "múltiplos horários",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "prouserId": 4,
+      "name": "Jiu-Jitsu",
+      "type": "artes marciais",
+      "price": 75,
+      "users_limit": 6,
+      "img_url": "https://images.unsplash.com/photo-1515025617920-e1e674b5033c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80",
+      "duration_text": "1 hora",
+      "duration_ms": 3600000,
+      "description": "Jiu-Jitsu - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": true,
+        "days": [
+          "Segunda",
+          "Quarta",
+          "Sexta"
+        ],
+        "time_text": "19 horas",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "prouserId": 4,
+      "name": "Treino de Cardio",
+      "type": "funcional",
+      "price": 45,
+      "users_limit": 20,
+      "img_url": "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "duration_text": "1 hora",
+      "duration_ms": 3600000,
+      "description": "Treino Cardio - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": true,
+        "days": [
+          "Sabado"
+        ],
+        "time_text": "7h horas",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "prouserId": 4,
+      "name": "Personal Traning",
+      "type": "fitness",
+      "price": 85,
+      "users_limit": 2,
+      "img_url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "duration_text": "1 hora",
+      "duration_ms": 3600000,
+      "description": "Treino Personal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "schedule": {
+        "recurrent": false,
+        "days": [],
+        "time_text": "múltiplos horários",
+        "start_date": 1657129958111
+      },
+      "address": {
+        "line_1": "Rua dos Testes, 33 - Sala 10",
+        "line_2": "Nome do Bairro",
+        "city": "Cidade Imaginária",
+        "state": "Nome do Estado",
+        "zip_code": "12345-000"
+      },
+      "id": 12
     }
   ]
 }
