@@ -43,9 +43,7 @@
       "name": "Kleber Silva",
       "phone": "1122334455",
       "bio": "Sou o Kleber, dou aula de capoeira, hip-hop e atendo como personal trainer",
-      "docs": [
-        "certificado de professor de capoeira"
-      ],
+      "docs": ["certificado de professor de capoeira"],
       "bank_info": {
         "bank": 543,
         "agency": 1231,
@@ -59,9 +57,7 @@
       "name": "Jamili Arantes",
       "phone": "1122334455",
       "bio": "Sou a Jamili, dou aula de Pilates, treinos HIIT e faço massagem modeladora",
-      "docs": [
-        "certificado de massagista"
-      ],
+      "docs": ["certificado de massagista"],
       "bank_info": {
         "bank": 543,
         "agency": 1231,
@@ -75,10 +71,7 @@
       "name": "Sidarta Naparajito",
       "phone": "1122334455",
       "bio": "Sou o Sidarta, dou aula de Yoga, Dança Indiana e faço acupuntura",
-      "docs": [
-        "certificado de acupunturista",
-        "diploma de dança indiana"
-      ],
+      "docs": ["certificado de acupunturista", "diploma de dança indiana"],
       "bank_info": {
         "bank": 543,
         "agency": 1231,
@@ -92,9 +85,7 @@
       "name": "Marcos Lima",
       "phone": "1122334455",
       "bio": "Sou o Marcos, dou aula de Jiu-Jitsu, Treinos Cardio e atendo como Personal traines",
-      "docs": [
-        "certificado de Jiu-Jitsu"
-      ],
+      "docs": ["certificado de Jiu-Jitsu"],
       "bank_info": {
         "bank": 543,
         "agency": 1231,
@@ -127,10 +118,7 @@
           "when": 1593658800000
         }
       ],
-      "activities_favorites": [
-        4,
-        3
-      ],
+      "activities_favorites": [4, 3],
       "id": 1
     }
   ],
@@ -145,20 +133,18 @@
       "img_url": "https://images.unsplash.com/photo-1583166614297-a97b68d5cead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1315&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Aula de capoeira - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Aula de capoeira - Venha aprender a mais pura e unica arte-marcial 100% brasileira. Mistura fantástica de dança, música exercício e combate. Vem pra cá! Aulas todos os Sábados!",
       "schedule": {
         "recurrent": true,
-        "days": [
-          "Sábado"
-        ],
+        "days": ["Sábado"],
         "time_text": "10h",
-        "start_date": 1657129958111
+        "start_date": 1658566800000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua dos luz, 41 - Sala 10",
+        "line_2": "Bairro da flor",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 1
@@ -173,18 +159,18 @@
       "img_url": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
       "duration_text": "1.5 hora",
       "duration_ms": 5400000,
-      "description": "Personal training - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Personal training - Aula individual de treino fisico, mas para um acompanhamento mais completo, também gosto de trabalhar um plano de nutrição para cada cliente, seja qual for o seu objetivo estou aqui pra te ajudar a alcança-lo!",
       "schedule": {
         "recurrent": false,
         "days": [],
         "time_text": "múltiplos horários",
-        "start_date": 1657129958111
+        "start_date": 1658131200000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua da Academia, 17 - Sala 1",
+        "line_2": "Bairro da Luta",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 2
@@ -199,21 +185,18 @@
       "img_url": "https://images.unsplash.com/photo-1588540111535-2b7ef1eb7833?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Aula de Hip-hop - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Aula de Hip-hop - Movimento, descontração, diversão. Cola aqui pra aprender a dançar o cada vez mais popular genero musical norte-americano! O South Bronx aqui no seu Bairro.",
       "schedule": {
         "recurrent": true,
-        "days": [
-          "Segunda",
-          "Quarta"
-        ],
+        "days": ["Segunda", "Quarta"],
         "time_text": "19 horas",
-        "start_date": 1657129958111
+        "start_date": 1658167200000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua Fernando Couto, 9",
+        "line_2": "Bairro Jardim do Lago",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 3
@@ -228,21 +211,18 @@
       "img_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Aula Pilates - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Aula Pilates - Trabalhe a sua conexão mente-corpo! Sinta a melhora de flexibilidade, concentração, equilíbrio, redução de estresse, melhora na disposição, diminuição de dores musculares e resistência muscular.",
       "schedule": {
         "recurrent": true,
-        "days": [
-          "Terça",
-          "Quinta"
-        ],
+        "days": ["Terça", "Quinta"],
         "time_text": "16 horas",
-        "start_date": 1657129958111
+        "start_date": 1658847600000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua da Igreja, 14 - Sala 2",
+        "line_2": "Bairro Vila Nova",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 4
@@ -257,21 +237,18 @@
       "img_url": "https://images.unsplash.com/photo-1517130038641-a774d04afb3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "duration_text": "30 minutos",
       "duration_ms": 1800000,
-      "description": "Treino HIIT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Treino HIIT - (Treino de alta intensidade intervalada), trazendo grandes resultados em relativamente curto intervalo de tempo por treino. Quer emagrecer ou ganhar musculatura? HIIT funciona!",
       "schedule": {
         "recurrent": true,
-        "days": [
-          "Terça",
-          "Quinta"
-        ],
+        "days": ["Terça", "Quinta"],
         "time_text": "19 horas",
-        "start_date": 1657129958111
+        "start_date": 1658858400000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua do Sapo, 1 - Sala 10",
+        "line_2": "Bairro Morumbi",
+        "city": "SP - capital",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 5
@@ -286,18 +263,18 @@
       "img_url": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "duration_text": "1.5 hora",
       "duration_ms": 5400000,
-      "description": "Massagem Modeladora - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Massagem Modeladora -  Utilizo movimentos manuais intensos e profundos, com o objetivo de reorganizar as camadas de gordura, promovendo a harmonização dos contornos corporais. Estimular a circulação sanguínea e o metabolismo.",
       "schedule": {
         "recurrent": false,
         "days": [],
         "time_text": "múltiplos horários",
-        "start_date": 1657129958111
+        "start_date": 1658736000000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua do Grillo, 3 - Sala 7",
+        "line_2": "Bairro Tucano",
+        "city": "SP - capital",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 6
@@ -312,22 +289,18 @@
       "img_url": "https://images.unsplash.com/photo-1593358578736-186f3d13c789?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Yin Yoga - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Yin Yoga - Provado que yin yoga tem grande poder para diminuir o estresse,ansiedade, depressão, circulação de sangue pelo organismo, qualidade de sono... posso continuar mas seria melhor você comprovar todos esses beneficios marcando essa aula!",
       "schedule": {
         "recurrent": true,
-        "days": [
-          "Terça",
-          "Quinta",
-          "Sábado"
-        ],
+        "days": ["Terça", "Quinta", "Sábado"],
         "time_text": "múltiplos horários",
-        "start_date": 1657129958111
+        "start_date": 1658822400000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua Dr. Arnaldo Freitas, 5 - Sala 2",
+        "line_2": "Bairro da flor",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 7
@@ -342,20 +315,18 @@
       "img_url": "https://images.unsplash.com/photo-1560646008-44ea61640db6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "duration_text": "2 horas",
       "duration_ms": 7200000,
-      "description": "Aula de dança indiana - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Aula de dança indiana - Nrittya, dança que conta histórias através da expressão das mãos, do rosto e do corpo. Nrittya é expressão da graciosidade e a emoção propriamente dita, muito mais que só dança!",
       "schedule": {
         "recurrent": true,
-        "days": [
-          "Sábado"
-        ],
+        "days": ["Sábado"],
         "time_text": "15 horas",
-        "start_date": 1657129958111
+        "start_date": 1658563200000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua da Academia, 17 - Sala 5",
+        "line_2": "Bairro da Luta",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 8
@@ -370,18 +341,18 @@
       "img_url": "https://images.unsplash.com/photo-1598555763574-dca77e10427e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=897&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Sessão de acupuntura - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Sessão de acupuntura - terapia milenar de origem chinesa, que melhora a imunidade e ajuda no tratamento de problemas emocionais e, até, de algumas doenças físicas como sinusite, asma, enxaqueca ou artrite",
       "schedule": {
         "recurrent": false,
         "days": [],
         "time_text": "múltiplos horários",
-        "start_date": 1657129958111
+        "start_date": 1658167200000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua Prf. Borges, 17 - Sala 20",
+        "line_2": "Bairro Jardim do Lago",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 9
@@ -396,22 +367,18 @@
       "img_url": "https://images.unsplash.com/photo-1515025617920-e1e674b5033c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Jiu-Jitsu - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Jiu-Jitsu - Venha aprender a arte marcial brasileira que conquistou o mundo! Desenvolvido pela família Gracie, no início do século XX o Jiu-Jitsu hoje e' uma das principais e mais populares arte-marciais no mundo!",
       "schedule": {
         "recurrent": true,
-        "days": [
-          "Segunda",
-          "Quarta",
-          "Sexta"
-        ],
+        "days": ["Segunda", "Quarta", "Sexta"],
         "time_text": "19 horas",
-        "start_date": 1657129958111
+        "start_date": 1658167200000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua da Academia, 17 - Sala 3",
+        "line_2": "Bairro Morumbi",
+        "city": "SP - capital",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 10
@@ -426,20 +393,18 @@
       "img_url": "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Treino Cardio - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Treino Cardio - O cardio torna o seu corpo, especificamente o coração, capaz de fornecer mais oxigénio para os músculos. Uma autentica fonte da juventude, um coração forte e eficiente reduz o risco geral de doenças!",
       "schedule": {
         "recurrent": true,
-        "days": [
-          "Sabado"
-        ],
+        "days": ["Sabado"],
         "time_text": "7h horas",
-        "start_date": 1657129958111
+        "start_date": 1657951200000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua da Igreja, 14 - Sala 4",
+        "line_2": "Bairro Tucano",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 11
@@ -454,18 +419,18 @@
       "img_url": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "duration_text": "1 hora",
       "duration_ms": 3600000,
-      "description": "Treino Personal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis libero nec eget at adipiscing sem arcu. Sit id quis pulvinar enim, sollicitudin eget. Volutpat massa leo egestas eget tellus auctor. Purus risus sit vestibulum, in massa sodales.",
+      "description": "Treino Personal - Aula de treino fisico, mas para um acompanhamento mais completo, também gosto de trabalhar um plano de nutrição para cada cliente, seja qual for o seu objetivo estou aqui pra te ajudar a alcança-lo!",
       "schedule": {
         "recurrent": false,
         "days": [],
         "time_text": "múltiplos horários",
-        "start_date": 1657129958111
+        "start_date": 1658167200000
       },
       "address": {
-        "line_1": "Rua dos Testes, 33 - Sala 10",
-        "line_2": "Nome do Bairro",
-        "city": "Cidade Imaginária",
-        "state": "Nome do Estado",
+        "line_1": "Rua Dr. Arnaldo Freitas, 5 - Sala 3",
+        "line_2": "Bairro Tucano",
+        "city": "Guarulhos",
+        "state": "SP",
         "zip_code": "12345-000"
       },
       "id": 12
